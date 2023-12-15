@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 140vh;
+    justify-content: center;
+    place-items: center;
+
+
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    display: flex;
+    place-items: center;
+}
+.box1{
+    width: 150px;
+    height: 50px;
+    /* border: 2px solid black; */
+    margin-left: 20px;
+}
+.box2{
+    width: 350px;
+    height: 50px;
+    /* border: 2px solid black; */
+    margin-right: -350px;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.text{
+    width: 150px;
+    height: 50px;
+    /* border: 2px solid black; */
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.box{
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+.del{
+    width: 1120px;
+    height: 100px;
+    /* border: 2px solid black; */
+    margin: 30px auto;
+}
+.center{
+    width: 1120px;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+.icoin{
+    width: 800px;
+    height: 600px;
+    /* border: 2px solid black; */
+    background-image: url("./world_map_PNG33.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+}
+.icoin1{
+    width: 300px;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+    grid-template-columns: 1fr;
+}
+.op{
+    width: 300px;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+    grid-template-columns: 1fr;
+}
+.men1{
+    width: 210px;
+    height: 200px;
+    /* border: 2px solid black; */
+    margin: 1px auto;
+}
+.men1 p{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.men1 h2{
+    margin-top: 20px;
+    cursor: pointer;
+}
+ hr{
+    width: 220px;
+    margin: 0px auto;
+}
+.men2{
+    width: 210px;
+    height: 190px;
+    /* border: 2px solid black; */
+    margin: 1px auto;
+}
+.men2 p {
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+.men2 h2 {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.men3{
+    width: 210px;
+    height: 195px;
+    /* border: 2px solid black; */
+    margin: 1px auto;
+}
+.men3 p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.men3 h2 {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.gap{
+    display: none;
+}
+.container1{
+    width: 100%;
+    height: 70vh;
+    /* border: 2px solid black; */
+}
+.fet{
+    width: 900px;
+    height: 150px;
+    /* border: 2px solid black; */
+    margin: 0px auto;
+    justify-content: space-between;
+    display: flex;
+    margin-top: -20px;
+}
+.cc{
+    width: 400px;
+    height: 125px;
+    margin: auto auto;
+    /* border: 2px solid black; */
+}
+.cc1{
+    width: 500px;
+    height: 125px;
+    /* border: 2px solid black; */
+    margin: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+
+}
+.rasm{
+    width: 100px;
+    height: 40px;
+    /* border: 2px solid  black; */
+    margin-top: 10px;
+}
+.cc h1{
+ font-size: 50px;
+}
+.cc p{
+    font-size: 25px;
+}
+.container3{
+    width: 1200px;
+    height: 90vh;
+    border: 2px solid black;
+    margin: -100px auto;
+    background-image: url("./Image.png");
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: 600px 0px;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+}
+.pdp{
+    width: 500px;
+    height: 630px;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: aliceblue;
+    margin-left: -230px;
+    margin-top: -10px;
+}
+.jek{
+    width: 400px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+.ja{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+.ja1{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+.det{
+    width:  400px;
+    height: 60px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+@media only screen and (max-width:1110px) {
+    .fet{
+        width: 800px;
+    }
+    .del{
+        width: 800px;
+    }
+    .center{
+        width: 800px;
+    }
+    .icoin{
+        width: 500px;
+        background-size: 500px;
+    }
+    .icoin1{
+        width: 250px;
+    }
+    .men1{
+        width: 200px;
+    }
+    .men2{
+        width: 200px;
+    }
+    .men3{
+        width: 200px;
+    }
+    .box2{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+    .gap{
+        width: 50px;
+        height: 50px;
+        background-image: url("./Icon.png");
+        background-repeat: no-repeat;
+        background-size: 50px;
+        margin-right: 20px;
+        display: inline;
+        cursor: pointer;
+    }
+    
+
+}
+@media only screen and (max-width:850px) {
+    .fet{
+        width: 500px;
+    }
+    .cc h1{
+        font-size: 15px;
+    }
+    .cc p{
+        font-size: 15px;
+    }
+    
+    .del{
+        width: 500px;
+
+    }
+    .center{
+        width: 500px;
+    }
+    .icoin{
+        width: 250px;
+        background-size: 250px;
+    }
+   
+}
+
+@media only screen and (max-width:550px) {
+    .cc h1{
+        font-size: 50px;
+    }
+    .cc p{
+        font-size: 25px;
+    }
+    .fet{
+        height: 100vh;
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+    .cc1{
+        grid-template-columns: 1fr 1fr ;
+        display: grid;
+        margin: -50px auto;
+        height: 300px;
+    }
+    .rasm{
+        margin: 0px auto;
+    }
+    
+    .container{
+        height: 200vh;
+    }
+    .del{
+        width: 350px;
+    }
+    .center{
+        height: 190vh;
+        grid-template-columns: 1fr ;
+    }
+    .op{
+        width: 350px;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        /* border: 2px solid red; */
+        margin-top: -130px;
+
+    }
+    .icoin{
+        width: 350px;
+        height: 300px;
+        margin: 0px auto;
+    }
+    .icoin1{
+        width: 350px;
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -130px;
+    }
+    .men1{
+        width: 350px;
+        height: 200px;
+
+    }
+    .men1 h2{
+        font-size: px;
+    }
+    .men1 p{
+        font-size: 30px;
+    }
+    hr{
+        width: 350px;
+    }
+    .men2{
+        width: 350px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .men3{
+        width: 350px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    .container3{
+        margin-top: 100px;
+    }
+}
